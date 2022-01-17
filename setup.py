@@ -1,6 +1,7 @@
+import sys
 from setuptools import setup, Extension
 
-version = "0.0.67"
+VERSION = "0.5.2"
 
 pywfplan_ext = Extension("pywfplan.pywfplan_ext",
 
@@ -9,7 +10,7 @@ pywfplan_ext = Extension("pywfplan.pywfplan_ext",
                                   "src/staff_planner.cpp",
                                   "src/pywfplan_ext.cpp"],
 
-                         libraries=["boost_python310"],
+                         libraries=["boost_python3{}".format(sys.version_info[1])],
 
                          include_dirs=["src",
                                        "pywfplan/pywfplan_ext",
@@ -21,8 +22,8 @@ pywfplan_ext = Extension("pywfplan.pywfplan_ext",
 
 setup(name="pywfplan",
 
-      version=version,
       license="MIT",
+      version=VERSION,
 
       description="Work force planner",
       long_description="""

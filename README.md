@@ -19,5 +19,5 @@ Ensure that you have a C++ compiler and the boost library installed, then run
 
 Or use the provided docker file:
 
-    docker build -t pywfplan
+    docker build -t pywfplan .
     docker run -p 8888:8888 -it pywfplan

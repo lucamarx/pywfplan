@@ -1,3 +1,4 @@
+from typing import List
 from .pywfplan_ext import ShiftRule, PlanExt, TargetExt, StaffPlannerExt
 
 
@@ -49,7 +50,7 @@ class StaffPlanner:
         self.report_ = staff_planner.getReport()
 
 
-    def getAgentPlan(self, agent_code : str) -> list[str]:
+    def getAgentPlan(self, agent_code : str) -> List[str]:
         """
         Get the optimized plan for agent
         """
@@ -59,7 +60,7 @@ class StaffPlanner:
         return [s.code() for s in self.result_.getAgentPlan(agent_code)]
 
 
-    def getTargetStaffing(self) -> list[float]:
+    def getTargetStaffing(self) -> List[float]:
         """
         Get the optimized staffing curve
         """
@@ -69,7 +70,7 @@ class StaffPlanner:
         return self.result_.getTargetStaffing()
 
 
-    def getPlannedStaffing(self) -> list[float]:
+    def getPlannedStaffing(self) -> List[float]:
         """
         Get the optimized staffing curve
         """

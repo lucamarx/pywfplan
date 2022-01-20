@@ -1,299 +1,497 @@
 {
   "OIA75": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO10_PT6H_0916",
+    "cycle": 9
   },
   "OIA95": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA144": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA143": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA243": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA153": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA96": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA122": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO10_FT_0916",
+    "cycle": 8
   },
   "OIA167": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO09_PT6H_0916",
+    "cycle": 7
   },
   "OIA242": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO09_PT6H_0916",
+    "cycle": 7
   },
   "OIA244": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO09_PT4H_0916",
+    "cycle": 7
   },
   "OIA35": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO09_PT4H_0916",
+    "cycle": 7
   },
   "OIA142": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO09_PT4H_0916",
+    "cycle": 7
   },
   "OIA170": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA42": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA152": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA97": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA70": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA120": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA116": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO09_FT_0916",
+    "cycle": 6
   },
   "OIA169": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO08_PT6H_0916",
+    "cycle": 5
   },
   "OIA140": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO08_PT6H_0916",
+    "cycle": 5
   },
   "OIA82": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO08_PT6H_0916",
+    "cycle": 5
   },
   "OIA131": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO08_PT6H_0916",
+    "cycle": 5
   },
   "OIA151": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO08_PT4HV_1016",
+    "cycle": 2
   },
   "OIA146": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO08_PT4HV_1016",
+    "cycle": 2
   },
   "OIA62": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO08_PT4H_0916",
+    "cycle": 3
   },
   "OIA44": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO08_FT_0916",
+    "cycle": 2
   },
   "OIA239": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO08_FT_0916",
+    "cycle": 2
   },
   "OIA61": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO08_FT_0916",
+    "cycle": 2
   },
   "OIA150": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO07_PT6H_0916",
+    "cycle": 1
   },
   "OIA47": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO07_PT6H_0916",
+    "cycle": 1
   },
   "OIA165": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO07_PT6H_0916",
+    "cycle": 1
   },
   "OIA27": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO07_PT6H_0916",
+    "cycle": 1
   },
   "OIA130": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO07_PT4H_0916",
+    "cycle": 1
   },
   "OIA94": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO07_PT4H_0916",
+    "cycle": 1
   },
   "OIA93": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO07_PT4H_0916",
+    "cycle": 1
   },
   "OIA235": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO07_PT4H_0916",
+    "cycle": 1
   },
   "OIA123": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO07_FT_0916",
+    "cycle": 10
   },
   "OIA240": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO07_FT_0916",
+    "cycle": 10
   },
   "OIA43": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO07_FT_0916",
+    "cycle": 10
   },
   "OIA164": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO07_FT_0916",
+    "cycle": 10
   },
   "OIA63": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO07_FT_0916",
+    "cycle": 10
   },
   "OIA168": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO06_PT6H_0916",
+    "cycle": 9
   },
   "OIA129": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO06_PT4H_0916",
+    "cycle": 10
   },
   "OIA162": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO06_PT4H_0916",
+    "cycle": 10
   },
   "OIA127": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA38": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA89": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA65": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA64": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA160": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA230": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO06_FT_0916",
+    "cycle": 9
   },
   "OIA74": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO05_PT6H_0916",
+    "cycle": 8
   },
   "OIA126": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO05_PT4H_0916",
+    "cycle": 8
   },
   "OIA237": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO05_PT4H_0916",
+    "cycle": 8
   },
   "OIA20": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO05_FT_0916",
+    "cycle": 7
   },
   "OIA90": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO05_FT_0916",
+    "cycle": 7
   },
   "OIA24": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO05_FT_0916",
+    "cycle": 7
   },
   "OIA52": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO05_FT_0916",
+    "cycle": 7
   },
   "OIA163": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO04_PT6H_0916",
+    "cycle": 6
   },
   "OIA5": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO04_PT6H_0916",
+    "cycle": 6
   },
   "OIA23": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO04_PT6H_0916",
+    "cycle": 6
   },
   "OIA128": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO04_PT4HV_1016",
+    "cycle": 1
   },
   "OIA103": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO04_FT_0916",
+    "cycle": 5
   },
   "OIA147": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO04_FT_0916",
+    "cycle": 5
   },
   "OIA157": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO04_FT_0916",
+    "cycle": 5
   },
   "OIA236": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO04_FT_0916",
+    "cycle": 5
   },
   "OIA233": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO03_PT6H_0916",
+    "cycle": 4
   },
   "OIA158": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO03_PT6H_0916",
+    "cycle": 4
   },
   "OIA156": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO03_PT6H_0916",
+    "cycle": 4
   },
   "OIA72": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO03_PT4HV_1016",
+    "cycle": 2
   },
   "OIA14": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO03_FT_0916",
+    "cycle": 3
   },
   "OIA6": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO03_FT_0916",
+    "cycle": 3
   },
   "OIA86": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO03_FT_0916",
+    "cycle": 3
   },
   "OIA50": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO03_FT_0916",
+    "cycle": 3
   },
   "OIA8": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO03_FT_0916",
+    "cycle": 3
   },
   "OIA36": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO02_PT6H_0916",
+    "cycle": 2
   },
   "OIA231": {
-    "contract": "PT_50_I"
+    "contract": "PT_50_I",
+    "team": "VO02_PT4H_0916",
+    "cycle": 2
   },
   "OIA57": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO02_FT_0916",
+    "cycle": 1
   },
   "OIA13": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO02_FT_0916",
+    "cycle": 1
   },
   "OIA88": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO02_FT_0916",
+    "cycle": 1
   },
   "OIA155": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO02_FT_0916",
+    "cycle": 1
   },
   "OIA17": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO02_FT_0916",
+    "cycle": 1
   },
   "OIA83": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO02_FT_0916",
+    "cycle": 1
   },
   "OIA125": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO01_PT6H_0916",
+    "cycle": 10
   },
   "OIA238": {
-    "contract": "PT_75_I"
+    "contract": "PT_75_I",
+    "team": "VO01_PT6H_0916",
+    "cycle": 10
   },
   "OIA15": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA85": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA81": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA77": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA21": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA28": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA117": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "VO01_FT_0916",
+    "cycle": 9
   },
   "OIA69": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "SUP_190_IASI_0916",
+    "cycle": 7
   },
   "OIA55": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "SUP_190_IASI_0916",
+    "cycle": 7
   },
   "OIA22": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "SUP_190_IASI_0916",
+    "cycle": 7
   },
   "OIA4": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "SUP_190_IASI_0916",
+    "cycle": 7
   },
   "OIA154": {
-    "contract": "FT_8H30_I"
+    "contract": "FT_8H30_I",
+    "team": "IA01_8H",
+    "cycle": 7
   }
 }

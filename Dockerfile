@@ -11,6 +11,7 @@ RUN apt clean               && \
 RUN apt install -y             \
     vim                        \
     build-essential            \
+    graphviz                   \
     software-properties-common \
     python3                    \
     python3-dev                \

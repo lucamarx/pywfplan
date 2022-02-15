@@ -1,7 +1,7 @@
 import sys
 from setuptools import setup, Extension
 
-VERSION = "0.5.2"
+VERSION = "0.5.12"
 
 pywfplan_ext = Extension("pywfplan.pywfplan_ext",
 
@@ -13,7 +13,6 @@ pywfplan_ext = Extension("pywfplan.pywfplan_ext",
                          libraries=["boost_python3{}".format(sys.version_info[1])],
 
                          include_dirs=["src",
-                                       "pywfplan/pywfplan_ext",
                                        "/usr/local/include"],
 
                          library_dirs=["/usr/local/lib"],
@@ -46,5 +45,6 @@ setup(name="pywfplan",
 
       install_requires=[
           "tabulate>=0.8.0",
+          "graphviz>=0.19.0",
           "matplotlib>=3.5.0"
       ])

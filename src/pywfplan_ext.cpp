@@ -217,4 +217,26 @@ BOOST_PYTHON_MODULE(pywfplan_ext)
     .def("setWeek",         &StaffPlanner::setWeek,         "Set week to plan")
     .def("getPlan",         &StaffPlanner::getPlan,         "Retrieve the optimized plan")
     .def("getReport",       &StaffPlanner::getReport,       "Get the planning report");
+
+  // --------------------------------------------------------------------------------
+
+  using str_re_t = RegExp<std::string>;
+
+  const str_re_t (str_re_t::*d1)(const std::string &) const              = &str_re_t::derivative;
+  const str_re_t (str_re_t::*d2)(const std::vector<std::string> &) const = &str_re_t::derivative;
+
+  class_<str_re_t>("Re", "Regular expression over strings", init<std::string>())
+    .def("__repr__",   &str_re_t::to_string)
+    .def("__eq__",     &str_re_t::operator==)
+    .def("__ne__",     &str_re_t::operator!=)
+    .def("is_literal", &str_re_t::is_literal, "Check if regexp is literal")
+    .def("alphabet",   &str_re_t::alphabet,   "Extract the alphabet from a regexp")
+    .def("kstar",      &str_re_t::kstar,      "Kleene star")
+    .def(self * self)
+    .def(self + self)
+    .def(self & self)
+    .def("d", d1, "Derivative over a string token")
+    .def("d", d2, "Derivative over a sequence of string tokens")
+    .def("match", &str_re_t::match, "Check if a sqeuence of tokens matches the regular expression");
+
 }

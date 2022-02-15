@@ -101,10 +101,14 @@ namespace fsm
     void print(std::ostream &os) const
     {
       os << "digraph FSM {\n"
+         << "  rankdir = LR;\n"
+         << "  node [shape = plain];\n"
+         << "  start;"
          << "  node [shape = doublecircle];\n";
       for (auto k : finals_)
         os << "  " << k << ";\n";
-      os << "  node [shape = circle];\n";
+      os << "  node [shape = circle];\n"
+         << "  start -> 1;\n";
       for (const auto &t : trans_letters_map_)
         {
           if (t.second.size() == 1)

@@ -12,6 +12,7 @@
 #include "target.h"
 #include "plan.h"
 #include "staff_planner.h"
+#include "fsm.h"
 
 // Type that allows for registration of conversions from python
 // iterable types.
@@ -144,6 +145,7 @@ BOOST_PYTHON_MODULE(pywfplan_ext)
   using namespace target;
   using namespace plan;
   using namespace regexp;
+  using namespace fsm;
   using namespace staff_planner;
   using namespace boost::python;
 
@@ -239,4 +241,12 @@ BOOST_PYTHON_MODULE(pywfplan_ext)
     .def("d", d2, "Derivative over a sequence of string tokens")
     .def("match", &str_re_t::match, "Check if a sqeuence of tokens matches the regular expression");
 
+  // --------------------------------------------------------------------------------
+
+  using str_fsm_t = Fsm<std::string, default_epp<std::string>>;
+
+  class_<str_fsm_t>("FsmExt", "Finite state machine", init<str_re_t>())
+    .def("__repr__",   &str_fsm_t::to_string)
+    .def("sample",     &str_fsm_t::sample, "Walk a random path through the fsm and generate a word")
+    .def("match",      &str_fsm_t::match, "Match a word against the fsm");
 }

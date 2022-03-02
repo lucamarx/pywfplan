@@ -112,7 +112,7 @@ agent_plan = planner.getAgentPlan(agent_code)
 
 Internally pywfplan converts the assignment rule into a *finite state machine*
 that can be used to sample all the valid plans for that agent, for an example
-you can look (here)[https://lucamarx.com/blog/2022/0211-regular_expressions_brzozowski/].
+you can look [here](https://lucamarx.com/blog/2022/0211-regular_expressions_brzozowski/).
 
 
 The planner then uses *simulated annealing* to minimize the average squared

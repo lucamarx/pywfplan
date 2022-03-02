@@ -69,7 +69,7 @@ W = A1 + A2 + A3
 # assign A1 on day 1, A2 on days 2-5 and R on day 7
 W = A1 * A2 * A2 * A2 * A2 * A2 * R
 
-# assign a 4 days shift on days 1-5, a 8 hour shift on day 6 and rest on day 7
+# assign a 4 hours shift on days 1-5, a 8 hour shift on day 6 and rest on day 7
 A = A1 + A2 + A3
 M = M1 + M2 + M3
 W = A * A * A * A * A * M * R
@@ -111,7 +111,8 @@ agent_plan = planner.getAgentPlan(agent_code)
 
 
 Internally pywfplan converts the assignment rule into a *finite state machine*
-that can be used to sample all the valid plans for that agent.
+that can be used to sample all the valid plans for that agent, for an example
+you can look (here)[https://lucamarx.com/blog/2022/0211-regular_expressions_brzozowski/].
 
 
 The planner then uses *simulated annealing* to minimize the average squared

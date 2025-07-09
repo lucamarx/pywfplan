@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM debian:12
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -28,7 +28,7 @@ RUN python3 -m venv /workspace/venv && \
 
 COPY --chown=jupyter . /workspace/pywfplan
 RUN cd /workspace/pywfplan && \
-    /workspace/venv/bin/python setup.py install
+    /workspace/venv/bin/pip install -e .
 
 EXPOSE 8888
 CMD ["/workspace/venv/bin/jupyter", "notebook", "--port=8888", "--ip=0.0.0.0", "--no-browser", "--notebook-dir=/workspace"]

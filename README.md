@@ -14,7 +14,7 @@ Installation
 
 Ensure that you have a C++ compiler and the boost library installed, then run
 
-    python setup.py install
+    pip install -e .
 
 Or use the provided docker file:
 

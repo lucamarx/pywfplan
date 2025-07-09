@@ -1,7 +1,7 @@
 import sys
 from setuptools import setup, Extension
 
-VERSION = "0.5.12"
+VERSION = "0.5.13"
 
 pywfplan_ext = Extension("pywfplan.pywfplan_ext",
 
